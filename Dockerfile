@@ -1,3 +1,3 @@
 
 FROM tomcat:8-jdk8-corretto
-COPY target/Java_Project*.war /usr/local/tomcat/webapps/Java_Project.war
+COPY target/maven-web-application.war*.war /usr/local/tomcat/webapps/maven-web-application.war.war
